@@ -1,6 +1,9 @@
 ## Problem Statement
 You have a random names of 1000 students in BSE and the interest is check whether the name "Patrick" is available. You are required write an algorithm that will linear search throughout the names and return the text "found" upon finding the name. Else, it will return "name not found". The algorithm will be tested on a small sample of names and the it will be generalized with names can be a very big number as "n".
 
-#### What will be running time function (T(n)) for the algorithm
-#### What will be the asymptotic notation of the running time function (T(n))
-#### What will be the best case scenario, average case scenario, and the worst case scenario.
+### Algorithm Analysis
+- **Running Time Function (T(n)):** The running time function for the algorithm is linear, denoted by \( T(n) = O(n) \).
+- **Asymptotic Notation:** The asymptotic notation of the running time function \( T(n) \) is \( O(n) \).
+- **Best Case Scenario:** The best case scenario occurs when the target name is found at the beginning of the list. In this case, the algorithm will have a time complexity of \( O(1) \).
+- **Average Case Scenario:** The average case scenario occurs when the target name is present in the list but not necessarily at the beginning. In this case, the algorithm will have a time complexity of \( O(n/2) \), which simplifies to \( O(n) \).
+- **Worst Case Scenario:** The worst case scenario occurs when the target name is not present in the list or is present at the end of the list. In this case, the algorithm will have to iterate through all \( n \) elements, resulting in a time complexity of \( O(n) \).
